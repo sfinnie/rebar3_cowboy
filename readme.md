@@ -8,7 +8,7 @@ Currently only one template is provided: for generating new Cowboy [handlers](ht
 
 For now, copy [cowboy_handler.template](cowboy_handler.template) and [cowboy_handler.erl](cowboy_handler.erl) to your `~/.config/rebar3/templates` directory.  
 
-**TODO** convert this to a rebar3 module so it can be installed with rebar itself.
+**TODO**: convert this to a rebar3 module so it can be installed with rebar itself.
 
 ## Use
 
@@ -57,6 +57,8 @@ Then:
 ## Pre-Requisites
 
 Only one template is currently provided: to generate a new Cowboy [Handler](https://ninenines.eu/docs/en/cowboy/2.6/guide/handlers/).
+
+**TODO**: Add template for new Cowboy-based app.
 
 To use, first create a new application, e.g. using the standard rebar3 [new app](https://www.rebar3.org/docs/basic-usage) command:
 
