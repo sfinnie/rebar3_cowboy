@@ -1,0 +1,7 @@
+{description, "Basic handler module for a Cowboy application"}.
+{variables, [
+    {name, "resource", "Name of the handler.  Prepended to the standard _handler suffix"}
+]}.
+
+{dir, "src"}.
+{template, "cowboy_handler.erl", "src/{{name}}_handler.erl"}.
