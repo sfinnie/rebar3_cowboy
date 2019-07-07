@@ -18,9 +18,9 @@ Then:
 
 1. Create the handler:
 
-	$ rebar3 new cowboy_handler myfirst
+		$ rebar3 new cowboy_handler myfirst
 
-1. Add the handler to your `_app.erl` file (`src/myapp_app.erl` using example above): 
+1. Add the handler to your `_app.erl` file (`src/myapp_app.erl` using example in pre-requisites below): 
 
 		start(_StartType, _StartArgs) ->
 			Dispatch = cowboy_router:compile([
@@ -52,7 +52,7 @@ Then:
 		$ curl localhost:8080
 		Response body - replace me
 
-See the [Cowboy docs](https://ninenines.eu/docs/en/cowboy/2.6/guide/) for building out the app from here.
+1. Edit the handler (`src/myfirst_handler.erl`) as required.  See the [Cowboy docs](https://ninenines.eu/docs/en/cowboy/2.6/guide/) for building out the app from here.
 
 ## Pre-Requisites
 
