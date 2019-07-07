@@ -6,6 +6,10 @@ Currently only one template is provided: for generating new Cowboy [handlers](ht
 
 ## Installation
 
+For now, copy [cowboy_handler.template](cowboy_handler.template) and [cowboy_handler.erl](cowboy_handler.erl) to your `~/.config/rebar3/templates` directory.  
+
+**TODO** convert this to a rebar3 module so it can be installed with rebar itself.
+
 ## Use
 
 First, create and initialise a Cowboy application.  See "Pre-requisites" below.
