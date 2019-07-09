@@ -13,5 +13,5 @@
 
 {template, "sup.erl", "{{name}}/src/{{name}}_sup.erl"}.
 {template, "gitignore", "{{name}}/.gitignore"}.
-{template, "LICENSE", "{{name}}/LICENSE"}.
+{template, "_LICENSE", "{{name}}/LICENSE"}.
 {template, "_README.md", "{{name}}/README.md"}.
