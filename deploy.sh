@@ -1,6 +1,8 @@
 #!/bin/sh
 
-TGT=~/.config/rebar3/templates/
+TGT=~/.config/rebar3/templates/rebar3_cowboy
+rm -rf $TGT
+mkdir -p $TGT
 
 cp *.template $TGT
 cp *.erl $TGT
