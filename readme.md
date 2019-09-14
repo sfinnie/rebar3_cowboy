@@ -58,9 +58,9 @@ To stop the app and leave the erlang shell:
 
 Tests work using the standard rebar3 commands, i.e.
 
-	$ rebar3 eunit    # unit tests - see http://erlang.org/doc/apps/eunit/chapter.html
-	$ rebar3 ct       # run commontests - see http://erlang.org/doc/apps/common_test/basics_chapter.html
-	$ rebar3 dialyzer # run dialyzer - see http://erlang.org/doc/man/dialyzer.html
+	$ rebar3 eunit    # unit tests       - see http://erlang.org/doc/apps/eunit/chapter.html
+	$ rebar3 ct       # run common tests - see http://erlang.org/doc/apps/common_test/basics_chapter.html
+	$ rebar3 dialyzer # run dialyzer     - see http://erlang.org/doc/man/dialyzer.html
 
 [learnyousomeerlang](https://learnyousomeerlang.com/) has good info on [testing](https://learnyousomeerlang.com/eunit) and [dialyzer](https://learnyousomeerlang.com/dialyzer).
  
@@ -94,7 +94,7 @@ Then compile and run the app as before:
 	~/projects/app_name $ rebar3 compile
 	~/projects/app_name $ rebar3 shell
 
-To test (in aother terminal):
+To test (in another terminal):
 
 	$ curl localhost:8080/second
 	Response body - replace me
